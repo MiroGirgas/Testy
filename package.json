@@ -1,0 +1,29 @@
+{
+  "name": "Testy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generateAutoCompetition": "npx codeceptjs def --config codecept.conf.js",
+    "TagSearch": "codeceptjs run --config=codecept.conf.js --debug --grep @image"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiroGirgas/Testy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiroGirgas/Testy/issues"
+  },
+  "homepage": "https://github.com/MiroGirgas/Testy#readme",
+  "dependencies": {
+    "codeceptjs": "^3.2.2",
+    "codeceptjs-assert": "0.0.5",
+    "playwright": "^1.17.1"
+  },
+  "devDependencies": {
+    "codeceptjs-assert": "0.0.5"
+}}
